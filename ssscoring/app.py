@@ -159,7 +159,7 @@ def main():
                 st.map(jumpResult.data, size=2)
 
     if st.sidebar.button('Exit'):
-        _closeWindow()
+        st.toast("Exit")
 
 
 if '__main__' == __name__:
